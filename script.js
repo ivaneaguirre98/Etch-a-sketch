@@ -24,7 +24,8 @@ function createGrid(col, rows){
 }
 
 function fillGrid(x){
-    x.target.style = "background-color: black"
+    let squareColor = document.getElementById("squareColor").value;
+    x.target.style.backgroundColor =squareColor;
 }
 
 function clearGrid(){
