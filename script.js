@@ -1,6 +1,8 @@
 console.log("Hello World");
 const container = document.querySelector('#container');
 let defaultSquare = 16;
+let squareNum = document.getElementById("numInput").value = 16;
+
 //function that sets width a
 
 //creates div and adds class of gridSquare
@@ -31,7 +33,7 @@ function clearGrid(){
 }
 
 function newGrid(){
-    let squareNum = document.getElementById("numInput").value;
+    squareNum = document.getElementById("numInput").value;
     if(squareNum < 16 || squareNum > 64){
         alert("Please enter in a number between 16-64.")
     }
