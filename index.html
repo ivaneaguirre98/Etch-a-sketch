@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="title">
+        <h1>Etch-A-Sketch</h1>
+        <p>Hover over each square to fill it in. You can set a set grid width and length between 16 - 50.</p>
+    </div>
+
+    <!-- conatiner DIV for the grid -->
+    <div class="containerWrapper">
+        <div id ="container"></div>
+        <div class="numberInput">
+            <div class="subtitle">Enter in your Number (16 - 64 ONLY):</div>
+            <input type="number" id="numInput" name="numInput" min="1" max="64" value="16">
+            <button id="newGridButt">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
